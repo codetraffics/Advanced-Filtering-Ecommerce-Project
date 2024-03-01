@@ -3,7 +3,8 @@ import Price from "./price/Price";
 import Colors from "./colors/Colors";
 import "./sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = ({ handleChange }) => {
+  console.log(handleChange);
   return (
     <>
       <section className="sidebar">
